@@ -1,0 +1,10 @@
+config:
+ mod_name: "better_chef"
+ uname: "betteradmin"
+ ip: "127.0.0.1" 
+ pass: "better4545#!"
+ filename: "programs/chef-101.tar.gz"
+ remote_webapps_path: "/tmp"
+ run_program: 'cd /tmp && tar -zxf chef-101.tar.gz && cd /tmp/chef-101/ && [[ -s "/home/betteradmin/.rvm/scripts/rvm" ]] && source "/home/betteradmin/.rvm/scripts/rvm"  && rvm use ruby-1.9.3-p392 && chef-solo -c solo.rb -j node.json -l fatal && rm -rf /tmp/chef-101* '
+
+ 

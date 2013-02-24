@@ -1,0 +1,73 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    celluloid (0.11.1)
+      timers (>= 1.0.0)
+    clockwork (0.4.1)
+      tzinfo
+    connection_pool (0.9.3)
+    dir (0.1.2)
+    hike (1.2.1)
+    i18n (0.6.1)
+    mail (2.5.3)
+      i18n (>= 0.4.0)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    mime-types (1.21)
+    multi_json (1.6.1)
+    net-scp (1.1.0)
+      net-ssh (>= 2.6.5)
+    net-sftp (2.1.1)
+      net-ssh (>= 2.6.5)
+    net-ssh (2.6.5)
+    polyglot (0.3.3)
+    rack (1.5.2)
+    rack-protection (1.3.2)
+      rack
+    rake (10.0.3)
+    redis (3.0.2)
+    redis-namespace (1.2.1)
+      redis (~> 3.0.0)
+    sidekiq (2.0.3)
+      celluloid (~> 0.11.0)
+      connection_pool (~> 0.9.0)
+      multi_json (~> 1)
+      redis (~> 3)
+      redis-namespace
+    sinatra (1.3.4)
+      rack (~> 1.4)
+      rack-protection (~> 1.3)
+      tilt (~> 1.3, >= 1.3.3)
+    slim (1.3.6)
+      temple (~> 0.5.5)
+      tilt (~> 1.3.3)
+    sprockets (2.8.2)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    sqlite3 (1.3.7)
+    temple (0.5.5)
+    tilt (1.3.3)
+    timers (1.1.0)
+    treetop (1.4.12)
+      polyglot
+      polyglot (>= 0.3.1)
+    tzinfo (0.3.35)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  clockwork
+  dir
+  mail
+  net-scp
+  net-sftp
+  net-ssh
+  rake
+  sidekiq (~> 2.0.3)
+  sinatra
+  slim
+  sprockets
+  sqlite3
