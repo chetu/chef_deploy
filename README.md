@@ -1,7 +1,7 @@
 chef_deploy
 ===========
 
-# Simple chef-solo to deploy update rails or other app 
+-- Simple chef-solo to deploy update rails or other app 
 
 - clone the git
 
